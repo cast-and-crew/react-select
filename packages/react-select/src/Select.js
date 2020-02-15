@@ -1428,7 +1428,7 @@ export default class Select extends Component<Props, State> {
     return (
       <Input
         autoCapitalize="none"
-        autoComplete="new-password"
+        autoComplete="off"
         autoCorrect="off"
         cx={cx}
         getStyles={this.getStyles}
