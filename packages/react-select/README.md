@@ -3,6 +3,19 @@
 [![Coverage Status](https://coveralls.io/repos/JedWatson/react-select/badge.svg?branch=master&service=github)](https://coveralls.io/github/JedWatson/react-select?branch=master)
 [![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=react-select)
 
+# Cast and Crew React Select
+
+Changes made:
+
+- Tab key to go to next field
+- disable address autofill in chrome
+
+# C&C Build + Publish:
+
+build 'yarn build' from packages/
+check packages/react-select/package.json has name as '@castandcrew/react-select'
+'npm publish' from packages/react-select
+
 # React-Select
 
 The Select control for [React](https://reactjs.com). Initially built for use in [KeystoneJS](http://www.keystonejs.com).
